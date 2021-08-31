@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #f3f3f3;
+}
+
+.mypage{
+    background: linear-gradient(to right, rgb(0, 255, 234), rgb(1, 165, 151));
+    text-align: center;
+    height: 60px;
+}
+
+.acc{
+    padding: 20px;
+    
+}
+
+.profile{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    display: flex;
+    box-shadow: 0, 1px, 20px, 0 rgba(69, 90, 100, 0.08);
+}
+
+.profile .left{
+    width: 35%;
+    background: linear-gradient(to right, #01a9ac, #01dbdf);
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.profile .left .img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.profile .left .h4{
+    margin-bottom: 10px;
+}
+
+.profile .left .p{
+    font-size: 12px;
+}
+
+.profile .right{
+    width: 65%;
+    background: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px 25px;
+}
+
+.profile .right .info,
+.profile .right .Skill{
+    margin-bottom: 25px;
+}
+
+.profile .right .info h2,
+.profile .right .Skill h2{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #353c4e;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.profile .right .Info_data,
+.profile .right .Skill_data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile .right .Info_data .data,
+.profile .right .Skill_data .data{
+    width: 45%;
+}
+
+.profile .right .Info_data .data h3,
+.profile .right .Skill_data .data h3 {
+    color: #353c4e;
+    margin: 5px;
+}
+
+.profile .right .Info_data .data p,
+.profile .right .Skill_data .data p {
+    font-size: 10px;
+    margin-bottom: 10px;
+    color: #919aa3;
+}
+
+.profile .social_media ul {
+    display: flex;
+}
+
+.profile .right .social_media ul li{
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(to right, #01a9ac, #01dbdf);
+    margin-right: 10px;
+    border-radius: 5px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.profile .right .social_media ul li a{
+    color: #fff;
+    display: block;
+    font-size: 18px;
+}
